@@ -48,11 +48,12 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to implement dark mode / light mode theme toggle with styled components and CSS variables in Gatbsy
+I learned how to implement dark mode / light mode theme toggle with styled components, CSS variables and Context API in Gatbsy and I discovered the rc-switch component. 
 
 ### Useful resources
 
 - [CSS for JavaScript Developers](https://css-for-js.dev/) - This course is just awesome! 
+- [A Complete Guide to Dark Mode on the Web](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/) - everything there is to know about dark mode
 - [Turn Off the Lights With React Context API](https://www.codewithlinda.com/blog/dark-mode-with-react-context/) - simple approach using Context API.
 - [Gradient Borders in CSS](https://css-tricks.com/gradient-borders-in-css/)
 

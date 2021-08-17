@@ -30,12 +30,15 @@ const StyledSwitch = styled.label`
   font-weight: var(--medium);
   display: flex;
   justify-content: space-between;
-  gap: 8px;
+  gap: 12px;
+  /* optical alignment*/
+  margin-top: -12px;
 
   @media ${QUERY} {
     width: 100%;
     padding-top: 1.5rem;
     border-top: 1px solid var(--divider);
+    margin-top: 0;
   }
 
   & > button {

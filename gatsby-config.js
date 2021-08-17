@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/stats-preview-card-component",
+  pathPrefix: "/social-media-dashboard-with-theme-switcher",
   siteMetadata: {
     title: `Frontend Mentor | Social media dashboard with theme switcher`,
     description: `UI project from frontendmaster.com`,
