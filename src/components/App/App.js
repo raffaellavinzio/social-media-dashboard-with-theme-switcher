@@ -22,7 +22,7 @@ const App = () => {
 }
 
 const Main = styled.main`
-padding-top: 2rem;
+  padding-top: 2rem;
   display: grid;
   place-items: center;
   background: var(--bg);

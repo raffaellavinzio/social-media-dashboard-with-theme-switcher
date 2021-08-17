@@ -6,11 +6,13 @@ export const COLORS = {
   twitter: "hsl(203, 89%, 53%)",
   instagram: "linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
   youtube: "hsl(348, 97%, 39%)",
-  commonToggleHover: "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+  commonToggleHover:
+    "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
 }
 
 export const DARKTHEME = {
-  darkThemeToggle: "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
+  darkThemeToggle:
+    "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
   veryDarkBlueBG: "hsl(230, 17%, 14%)",
   veryDarkBlueTopBG: "hsl(232, 19%, 15%)",
   darkDesaturatedBlue: "hsl(228, 28%, 20%)",

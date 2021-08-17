@@ -5,6 +5,7 @@ import { createGlobalStyle } from "styled-components/macro"
 import Inter from "../../fonts/Inter.woff2"
 
 const FontStyles = createGlobalStyle`
+
 @font-face {
     font-family: "Inter";
     font-style: normal;

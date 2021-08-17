@@ -61,7 +61,7 @@ const SubTitle = styled.span`
   color: var(--text);
   font-size: calc(1.2 * var(--baseline-size));
   font-weight: var(--medium);
-  
+
   @media ${QUERY} {
     display: block;
     padding-bottom: 1.5rem;
