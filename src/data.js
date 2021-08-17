@@ -1,0 +1,121 @@
+export const data = {
+  summaryCards: [
+    {
+      id: 1,
+      social: "facebook",
+      url : 'icon-facebook.svg',
+      user: "@nathanf",
+      followersCount: "1987",
+      trend: 'icon-up.svg',
+      dailyFollowersCountChange: "12",
+    },
+    {
+      id: 2,
+      social: "twitter",
+      url : 'icon-twitter.svg',
+      user: "@nathanf",
+      followersCount: "1044",
+      trend: 'icon-up.svg',
+      dailyFollowersCountChange: "99",
+    },
+    {
+      id: 3,
+      social: "instagram",
+      url : 'icon-instagram.svg',
+      user: "@realnathanf",
+      followersCount: "11k",
+      trend: 'icon-up.svg',
+      dailyFollowersCountChange: "1099",
+    },
+    {
+      id: 4,
+      social: "youtube",
+      url : 'icon-youtube.svg',
+      user: "Nathan F.",
+      followersCount: "8239",
+      trend: 'icon-down.svg',
+      dailyFollowersCountChange: "144",
+    },
+  ],
+  metricsCards: [
+    {
+      id: 1,
+      title: "Page Views",
+      count: "87",
+      percentage: "3",
+      trend: 'icon-up.svg',
+      social: "facebook",
+      url : 'icon-facebook.svg',
+    },
+
+    {
+      id: 2,
+      title: "Likes",
+      count: "52",
+      percentage: "2",
+      trend: 'icon-down.svg',
+      social: "facebook",
+      url : 'icon-facebook.svg',
+    },
+
+    {
+      id: 3,
+      title: "Likes",
+      count: "5462",
+      percentage: "2257",
+      trend: 'icon-up.svg',
+      social: "instagram",
+      url : 'icon-instagram.svg',
+    },
+
+    {
+      id: 4,
+      title: "Profile Views",
+      count: "52k",
+      percentage: "1375",
+      trend: 'icon-up.svg',
+      social: "instagram",
+      url : 'icon-instagram.svg',
+    },
+
+    {
+      id: 5,
+      title: "Retweets",
+      count: "117",
+      percentage: "303",
+      trend: 'icon-up.svg',
+      social: "twitter",
+      url : 'icon-twitter.svg',
+    },
+
+    {
+      id: 6,
+      title: "Likes",
+      count: "507",
+      percentage: "553",
+      trend: 'icon-up.svg',
+      social: "twitter",
+      url : 'icon-twitter.svg',
+    },
+
+    {
+      id: 7,
+      title: "Likes",
+      count: "107",
+      percentage: "19",
+      trend:  'icon-down.svg',
+      social: "youtube",
+      url : 'icon-youtube.svg',
+    },
+
+    {
+      id: 8,
+      title: "Total Views",
+      count: "1407",
+      percentage: "12",
+      trend:  'icon-down.svg',
+      social: "youtube",
+      url : 'icon-youtube.svg',
+    },
+  ],
+}
