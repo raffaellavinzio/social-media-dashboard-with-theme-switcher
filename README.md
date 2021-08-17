@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to implement dark mode / light mode theme toggle with styled components, CSS variables and Context API in Gatbsy and I discovered the rc-switch component. 
+To implement dark mode / light mode theme toggle with styled components, CSS variables and Context API in Gatbsy. I also discovered the rc-switch component. 
 
 ### Useful resources
 
