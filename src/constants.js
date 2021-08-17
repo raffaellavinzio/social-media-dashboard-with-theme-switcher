@@ -34,4 +34,4 @@ export const WEIGHTS = {
   medium: 700,
 }
 
-export const QUERY = `(min-width: 876px)`
+export const QUERY = `(max-width: 600px)`

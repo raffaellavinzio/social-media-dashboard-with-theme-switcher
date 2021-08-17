@@ -3,13 +3,12 @@ import styled from "styled-components/macro"
 
 import Dashboard from "../Dashboard"
 
-import {ThemeContext} from '../../context'
+import { ThemeContext } from "../../context"
 
 const App = () => {
-  const {theme} = React.useContext(ThemeContext)
+  const { theme } = React.useContext(ThemeContext)
   return (
-
-    <Main data-theme= {theme}>
+    <Main data-theme={theme}>
       <Dashboard />
       <Attribution>
         Challenge by{" "}
@@ -20,27 +19,24 @@ const App = () => {
       </Attribution>
     </Main>
   )
-
 }
 
 const Main = styled.main`
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  min-height: 100%;
+padding-top: 2rem;
+  display: grid;
+  place-items: center;
   background: var(--bg);
-  padding-bottom: 2rem;;
 `
 
 const Attribution = styled.p`
-  position: absolute;
-  bottom: 0;
-  z-index: 2;
   text-align: center;
   width: 100%;
   font-size: var(--baseline-size);
   color: var(--text);
+
+  & > a {
+    color: var(--text-metrics);
+  }
 `
 
 export default App

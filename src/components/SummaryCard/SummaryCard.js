@@ -74,6 +74,7 @@ const Account = styled.span`
   align-items: center;
   gap: 0.5rem;
   font-size: var(--baseline-size);
+  font-weight: var(--medium);
 `
 const MetricWrapper = styled.div`
   display: flex;
@@ -105,6 +106,7 @@ const Trend = styled.span`
   align-items: center;
   gap: 0.2rem;
   font-size: var(--baseline-size);
+  font-weight: var(--medium);
 `
 
 export default SummaryCard

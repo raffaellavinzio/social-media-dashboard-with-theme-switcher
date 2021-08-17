@@ -64,7 +64,7 @@ table {
   --text: ${DARKTHEME.desaturatedBlue};
   --text-metrics: ${COLORS.white};
   --hover:  ${DARKTHEME.hoverDark};
-
+  --divider: ${DARKTHEME.hoverDark};
 }
 
 [data-theme="light"] {
@@ -76,6 +76,7 @@ table {
     --text: ${LIGHTTHEME.darkGrayishBlue};
     --text-metrics: ${LIGHTTHEME.veryDarkBlue};
     --hover: ${LIGHTTHEME.hoverLight};
+    --divider: ${LIGHTTHEME.darkGrayishBlue};
 }
 
 html {
@@ -130,8 +131,9 @@ html {
   --reach-dialog: 1;
 }
 
-html, body, #root {
+html, body {
   height: 100%;
+  background: var(--bg);
 }
 
 html {
