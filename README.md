@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/raffaellavinzio/social-media-dashboard-with-theme-switcher)
-- Live Site URL: [git pages](https://raffaellavinzio.github.io/social-media-dashboard-with-theme-switcher/)
+- Live Site URL: [Netlify](https://social-media-dashboard-with-dark-light-themes.netlify.app/)
 
 ## My process
 
